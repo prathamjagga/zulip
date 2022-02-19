@@ -11,4 +11,5 @@ setup_path()
 os.environ["DJANGO_SETTINGS_MODULE"] = "zproject.settings"
 from django.conf import settings
 
+
 print(getattr(settings, sys.argv[1]))
